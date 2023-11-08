@@ -1,0 +1,1 @@
+alert('Comecou o Typescript')
