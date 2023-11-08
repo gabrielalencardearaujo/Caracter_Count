@@ -78,3 +78,18 @@ header ul li a.active {
 header ul li a:hover {
   text-decoration: underline;
 }
+
+/* ALERTS */
+
+.alertas{
+  display: none;
+  text-align: center;
+  color: tomato;
+  font-style: italic;
+  font-size: .8em;
+  font-weight: 500;
+  margin: 15px auto;
+  max-width: 60%;
+  background-color: rgb(250, 216, 210);
+  border-radius: 4px;
+}

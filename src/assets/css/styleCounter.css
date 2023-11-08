@@ -50,32 +50,6 @@
   color: rgb(87, 87, 247);
 }
 
-/* ALERTAS */
-
-.alertas{
-  display: none;
-  text-align: center;
-  color: tomato;
-  font-style: italic;
-  font-size: .8em;
-  font-weight: 500;
-  margin: 15px auto;
-  max-width: 60%;
-  background-color: rgb(250, 216, 210);
-  border-radius: 4px;
-}
-
-.obs{
-  display: block;
-  text-align: start;
-  color: black;
-  font-size: .6em;
-  margin-top: -5px;
-  opacity: .5;
-  margin-bottom: 30px;
-  font-style: italic;
-}
-
 /* RESULTADO */
 .result{
   display: block;
