@@ -16,7 +16,7 @@
 
 body {
   margin: 0;
-  padding: 0;
+  padding: 10px;
   background: var(--primary-color);
   font-family: 'Open sans', sans-serif;
   font-size: 1.3em;
@@ -24,7 +24,7 @@ body {
 }
 
 .container {
-  max-width: 700px;
+  max-width: 1200px;
   margin: 50px auto;
   background: #fff;
   padding: 20px;
@@ -55,14 +55,15 @@ textarea {
 }
 
 .opcoes>input {
-  width: 45px;
+  width: auto;
   font-size: 1.3em;
-  height: 25px;
   border: 1px solid black;
+  padding: 5px 0px;
+  border-radius: 6px;
 }
 
 .divBTN  {
-  text-align: center;
+  text-align: end;
   padding: 10px;
 }
 
@@ -92,15 +93,23 @@ textarea {
   border: 2px solid var(--primary-color-darker);
 }
 
+.numbers {
+  color: rgb(87, 87, 247);
+}
+
 /* ALERTAS */
 
 .alertas{
   display: none;
   text-align: center;
-  color: red;
+  color: tomato;
   font-style: italic;
   font-size: .8em;
-  margin-top: 15px;
+  font-weight: 500;
+  margin: 15px auto;
+  max-width: 60%;
+  background-color: rgb(250, 216, 210);
+  border-radius: 4px;
 }
 
 .obs{
