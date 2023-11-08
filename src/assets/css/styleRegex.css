@@ -1,0 +1,28 @@
+.divInputRegex {
+  text-align: start;
+}
+
+#inputRegex {
+  width: 50%;
+  font-size: 1.3rem;
+  padding: 4px;
+}
+
+.btn {
+  margin: 40px 0;
+}
+
+.counter {
+  text-align: start;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.counter span {
+  color: rgb(87, 87, 247);
+}
+
+.resultado {
+  font-size: 1.2rem;
+  text-align: start;
+}
