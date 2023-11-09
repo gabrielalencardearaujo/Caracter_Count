@@ -17,15 +17,29 @@ export const start = () => {
     return true;
   }
 
+  const showOnDocument = (children: string) => {
+    resultado.innerHTML = children
+  };
+
+  const spanRegex = (children: string) => {
+    return `<span class="stringSelect">${children}</span>`
+  }
+  
   const mountResult = () => {
     const regexValue = inputRegex.value.split('/');
     const mountRegex = new RegExp(regexValue[1], regexValue[2]);
+    const arrayMatchRegex = textarea.value.match(mountRegex)
 
-    // const replaceValues = textarea.value.replace(mountRegex, )
-  }
+    if(arrayMatchRegex && inputRegex.value) 
+      counter.textContent = `${arrayMatchRegex.length}`;
+    else 
+      counter.textContent = `0`;
 
-  function spanRegex(children: string) {
-    return `<span>${children}</span>`
+    counter.parentElement.style.display = 'block';
+
+    const replaceValues = textarea.value.replace(mountRegex, spanRegex('$&'))
+    
+    showOnDocument(replaceValues)
   }
 
   btnResult.addEventListener('click', () => {

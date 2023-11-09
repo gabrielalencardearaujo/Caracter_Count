@@ -20,6 +20,7 @@ body {
   font-family: 'Open sans', sans-serif;
   font-size: 1.3em;
   line-height: 1.5em;
+  overflow-x: hidden;
 }
 
 .container {
@@ -39,7 +40,7 @@ textarea {
   resize: none;
   width: 95%;
   border-radius: 10px;
-  font-size: 1em;
+  font-size: 0.8em;
   padding: 10px;
   margin: 20px 0px 5px 0px;
 }
