@@ -8,6 +8,8 @@ import * as Regex from './components/Regex/main';
 
 const urlSearchBar = window.location.href;
 
-if(urlSearchBar.includes('index')) Counter.start();
+if(!urlSearchBar.includes('index')) {
+  Counter.start()
+};
 
 if(urlSearchBar.includes('regex')) Regex.start();
